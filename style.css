@@ -42,6 +42,7 @@ li {
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
@@ -77,8 +78,12 @@ p,
     color: #FFF;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
-
+.primary_btn:hover{
+    background-color: black;
+    border: 2px solid white;
+}
 .img img {
     width: 100%;
     padding: 0px auto;
@@ -235,7 +240,16 @@ button {
     text-align: center;
     height: auto;
     width: 15%;
+    width: 180px;
+    height: 80px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
+
 
 .ten_yers>p {
     padding: 10px;
@@ -259,6 +273,7 @@ button {
 
 .facts {
     padding: 30px;
+
 }
 
 .facts h1 {
@@ -286,12 +301,72 @@ button {
     text-align: center;
     padding: 40px;
     width: 140px;
-    
-    
-    
-}
+    cursor: pointer;
 
+}
+.facts_card:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition: .5s;
+}
 .facts_card p {
     margin: 0px;
 
+}
+
+.section6 {
+    margin: 100px auto;
+    width: 80%;
+
+
+}
+
+.sponsors {
+    text-align: center;
+
+}
+
+.sponsors h1 {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.sposnor_text {
+
+    width: 500px;
+
+    margin: 10px auto;
+}
+
+.img_sponsors {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    /* border: 2px solid black; */
+
+}
+.img_sponsors img:hover{
+    background-color: rgb(187, 179, 179);
+    transform: scale(1.5);
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.img_sponsors img {
+    height: 30px;
+}
+
+
+
+.footer {
+    background: rgba(255, 144, 14, 0.10);
+    width: 80%;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    /* padding-top: 25px; */
 }
