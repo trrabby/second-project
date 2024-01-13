@@ -160,3 +160,138 @@ button {
     line-height: 26px;
     /* 162.5% */
 }
+
+.enjoable_features {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 85%;
+    margin: 0px auto;
+    gap: 20px;
+    position: relative;
+
+}
+
+.features_list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.sigment_head>h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    border-left: 5px solid #FF900E;
+    border-radius: 5px;
+}
+
+.sigment_head p {
+    font-size: 1rem;
+
+
+}
+
+.features_list .sigments {
+
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    width: 75%;
+    height: 7rem;
+
+
+}
+
+.sigments h1 {
+    margin-bottom: 10px;
+
+}
+
+.sigments p {
+
+    margin: 0px;
+}
+
+.features_img {
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.features_img img {
+    width: 100%;
+
+}
+
+.ten_yers {
+    position: relative;
+    margin-left: 600px;
+    margin-top: -60px;
+    text-align: center;
+    height: auto;
+    width: 15%;
+}
+
+.ten_yers>p {
+    padding: 10px;
+    text-align: center;
+}
+
+.ten {
+    color: #FFF;
+    margin: 0px;
+
+    font-size: 2.5rem;
+
+    font-weight: 500;
+}
+
+.section5 {
+    width: 85%;
+    margin: 100px auto;
+
+}
+
+.facts {
+    padding: 30px;
+}
+
+.facts h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.facts p {
+    margin-top: 10px;
+    width: 542px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.facts_card {
+    border: 2px solid orange;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+    width: 140px;
+    
+    
+    
+}
+
+.facts_card p {
+    margin: 0px;
+
+}
